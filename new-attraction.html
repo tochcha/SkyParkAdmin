@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>SkyParkAdmin 3 Новый аттракцион</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/tcal.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#caced7">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#caced7">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#caced7">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="animatedParent animateOnce" data-sequence="200">
+                        <div class="name animated fadeIn" data-id="1">Константинопольский Михаил Юрьевич</div>
+                        <ul class="login-menu animated fadeIn" data-id="2">
+                            <li class="login"><a href="profile.html">Выход</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav animatedParent animateOnce">
+        <div class="container animated fadeIn delay-250">
+            <ul>
+                <li class="active"><a href="#">Магазин</a></li>
+                <li><a href="#">Пользователи</a></li>
+                <li><a href="#">Площадки</a></li>
+                <li><a href="#">Билеты</a></li>
+                <li><a href="#">Скидки и акции</a></li>
+                <li><a href="#">Шаблоны</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Отчеты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-base animatedParent animateOnce">
+        <div class="container animated fadeIn delay-750">
+            <div class="content content-100">
+                <div class="main-title">
+                    <h2>Новый аттракцион</h2>
+                </div>
+                <form action="#">
+                    <div class="content-full-height">
+						<div class="new-attraction-header">
+							<ul>
+								<li>Номер 7</li>
+								<li>ID 456731</li>
+								<li>Дата добавления 13.04.2017</li>
+							</ul>
+						</div>
+						<div class="three-col clearfix">
+							<div class="column">
+								<div class="row"><input type="text" placeholder="Статус"></div>
+								<div class="row">
+									<select>
+										<option disabled selected>Минимальный возраст</option>
+										<option>9 лет</option>
+										<option>19 лет</option>
+										<option>29 лет</option>
+										<option>39 лет</option>
+										<option>49 лет</option>
+										<option>59 лет</option>
+									</select>
+								</div>
+								<div class="row">
+									<select>
+										<option disabled selected>Максимальный вес</option>
+										<option>91 кг</option>
+										<option>119 кг</option>
+										<option>129 кг</option>
+										<option>139 кг</option>
+										<option>149 кг</option>
+										<option>159 кг</option>
+									</select>
+								</div>
+								<div class="row"><input type="text" placeholder="Цена билета"></div>
+								<div class="row"><input type="text" placeholder="Рабочий стол"></div>
+							</div>
+							<div class="column">
+								<div class="row"><input type="text" placeholder="Шаг времени"></div>
+								<div class="row two-inputs">
+									<input class="white-input" type="text" placeholder="Начало работы">
+									<input class="white-input" type="text" placeholder="Завершение работы">
+								</div>
+								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-1" disabled><label class="forcheckbox" for="checkbox-1">Разбивка на временные слоты</label></div>
+								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-2" disabled><label class="forcheckbox" for="checkbox-2">Предложить тандем</label></div>
+								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-3"><label class="forcheckbox" for="checkbox-3">Сертификат</label></div>
+							</div>
+							<div class="column last">
+								<div class="row"><textarea placeholder="Текст письма"></textarea></div>
+								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-4"><label class="forcheckbox disabled" for="checkbox-4">Рассылка писем</label></div>
+								<div class="row"><textarea placeholder="Примечание"></textarea></div>
+							</div>
+						</div>
+                    <div class="bottom-buttons">
+                        <input type="submit" value="Готово">
+                        <input class="yellow" type="submit" value="Отмена">
+                    </div>
+					</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.3.js"></script>
+    
+    <script src="js/tcal.js"></script>
+    <!--input календаря-->
+    
+    <script src="js/tabs.js"></script>
+    <!--табы-->
+    
+    <script src="js/slideBlock1.js"></script>
+    <script src="js/slideBlock2.js"></script>
+    <!--блок выезжающий по клику-->
+    
+    <script src="js/easyTooltip.js"></script>
+    <!--подсказка при наведении-->
+    
+    <script src="js/css3-animate-it.js"></script>
+    <!--анимация http://jackonthe.net/css3animateit/-->
+    
+    <script src="js/flexcroll.js"></script>
+    <!--кастомный скролл-->
+    
+    <script src="js/common.js"></script>
+    <!-- инициализация скриптов и мелкие скрипты -->
+</body>
+
+</html>

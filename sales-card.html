@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>SkyParkAdmin 13 Карточка продажи</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/tcal.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#caced7">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#caced7">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#caced7">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="animatedParent animateOnce" data-sequence="200">
+                        <div class="name animated fadeIn" data-id="1">Константинопольский Михаил Юрьевич</div>
+                        <ul class="login-menu animated fadeIn" data-id="2">
+                            <li class="login"><a href="profile.html">Выход</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav animatedParent animateOnce">
+        <div class="container animated fadeIn delay-250">
+            <ul>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Пользователи</a></li>
+                <li><a href="#">Площадки</a></li>
+                <li class="active"><a href="#">Билеты</a></li>
+                <li><a href="#">Скидки и акции</a></li>
+                <li><a href="#">Шаблоны</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Отчеты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-base animatedParent animateOnce">
+        <div class="container animated fadeIn delay-750">
+            <div class="content content-100">
+                <div class="main-title">
+                    <h2>3222 Карточка продажи</h2>
+                </div>
+                <form action="#">
+                    <div class="content-full-height">
+                        <div class="tabs-wrapper">
+                            <div id="tab1" class="tab vis">
+                            	<div class="user-item">
+									<div class="three-col clearfix">
+										<div class="column">
+											<div class="row">
+												<input class="used" type="text" id="inp1" value="252284">
+												<label class="floating" for="inp1">Номер билета</label>
+											</div>
+											<div class="row">
+												<input class="used" type="text" id="inp2" value="Покупка">
+												<label class="floating" for="inp2">Тип операции</label>
+											</div>
+											<div class="row">
+												<input class="used" type="text" id="inp3" value="1 000 Р">
+												<label class="floating" for="inp3">Цена</label>
+											</div>
+											<div class="row">
+												<input class="used" type="text" id="inp4" value="1 000 Р">
+												<label class="floating" for="inp4">Оплачено</label>
+											</div>
+											<div class="row">
+												<select id="inp5">
+													<option selected disabled>Кассир</option>
+													<option>Брусникина Наталья</option>
+													<option>Наталья Брусникина</option>
+												</select>
+												<label class="floating" for="inp5">Кассир</label>
+											</div>
+											<div class="userbox slide-block active">
+												<div class="title">Клиент</div>
+												<h4 class="open-close">Константинопольский Дмитрий</h4>
+												<div class="block">
+													<div class="slide-row">
+														<input class="base-field" type="text" placeholder="Константинопольский">
+														<label>&nbsp;</label>
+													</div>
+													<div class="slide-row">
+														<input type="text" placeholder="Дмитрий">
+														<label>&nbsp;</label>
+													</div>
+													<div class="slide-row">
+														<input type="text" placeholder="+79694492914">
+														<label>&nbsp;</label>
+													</div>
+													<div class="slide-row">
+														<input type="email" placeholder="Suicide_jumper@yandex.ru">
+														<label>&nbsp;</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="column">
+											<div class="row">
+												<select id="inp6">
+													<option selected disabled>Площадка</option>
+													<option>Площадка 1</option>
+													<option>Площадка 2</option>
+													<option>Площадка 3</option>
+												</select>
+												<label class="floating" for="inp6">Площадка</label>
+											</div>
+											<div class="row">
+												<input type="text" id="inp7">
+												<label class="floating" for="inp7">ID Аттракциона</label>
+											</div>
+											<div class="row">
+												<input type="text" id="inp8">
+												<label class="floating" for="inp8">Скидка</label>
+											</div>
+											<div class="row">
+												<select id="inp9">
+													<option selected disabled>Основание для скидки</option>
+													<option>Основание для скидки 1</option>
+													<option>Основание для скидки 2</option>
+													<option>Основание для скидки 3</option>
+												</select>
+												<label class="floating" for="inp9">Основание для скидки</label>
+											</div>
+											<div class="row">
+												<input type="text" id="inp10">
+												<label class="floating" for="inp10">Дата продажи</label>
+											</div>
+											<div class="row">
+												<input type="text" id="inp11">
+												<label class="floating" for="inp11">ID клиента</label>
+											</div>
+										</div>
+										<div class="column last-child">
+											<div class="row">
+												<input class="used" type="text" id="inp12" value="OK">
+												<label class="floating" for="inp12">Статус</label>
+											</div>
+											<div class="row">
+												<input class="used" type="text" id="inp13" value="Bungy 69">
+												<label class="floating" for="inp13">Название аттракциона</label>
+											</div>
+											<div class="row">
+												<input class="used" type="text" id="inp14" value="20%">
+												<label class="floating" for="inp14">Размер скидки</label>
+											</div>
+											<div class="row">
+												<input type="text" id="inp15">
+												<label class="floating" for="inp15">Примечание кассира</label>
+											</div>
+											<div class="row">
+												<select id="inp16">
+													<option selected disabled>Возврат</option>
+													<option>Нет</option>
+													<option>Да</option>
+												</select>
+												<label class="floating" for="inp16">Возврат</label>
+											</div>
+											<div class="row">
+												<select id="inp17">
+													<option selected disabled>Способ оплаты</option>
+													<option>Наличными</option>
+													<option>Безнал</option>
+												</select>
+												<label class="floating" for="inp17">Способ оплаты</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-buttons">
+									<input type="submit" value="Сохранить">
+									<input class="yellow" type="submit" value="Брак">
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.3.js"></script>
+    
+    <script src="js/tcal.js"></script>
+    <!--input календаря-->
+    
+    <script src="js/tabs.js"></script>
+    <!--табы-->
+    
+    <script src="js/slideBlock1.js"></script>
+    <script src="js/slideBlock2.js"></script>
+    <!--блок выезжающий по клику-->
+    
+    <script src="js/easyTooltip.js"></script>
+    <!--подсказка при наведении-->
+    
+    <script src="js/css3-animate-it.js"></script>
+    <!--анимация http://jackonthe.net/css3animateit/-->
+    
+    <script src="js/flexcroll.js"></script>
+    <!--кастомный скролл-->
+    
+    <script src="js/common.js"></script>
+    <!-- инициализация скриптов и мелкие скрипты -->
+</body>
+
+</html>

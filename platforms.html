@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>SkyParkAdmin 8 Площадки</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/tcal.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#caced7">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#caced7">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#caced7">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="animatedParent animateOnce" data-sequence="200">
+                        <div class="name animated fadeIn" data-id="1">Константинопольский Михаил Юрьевич</div>
+                        <ul class="login-menu animated fadeIn" data-id="2">
+                            <li class="login"><a href="profile.html">Выход</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav animatedParent animateOnce">
+        <div class="container animated fadeIn delay-250">
+            <ul>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Пользователи</a></li>
+                <li class="active"><a href="#">Площадки</a></li>
+                <li><a href="#">Билеты</a></li>
+                <li><a href="#">Скидки и акции</a></li>
+                <li><a href="#">Шаблоны</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Отчеты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-base animatedParent animateOnce">
+        <div class="container animated fadeIn delay-750">
+            <div class="content content-100">
+                <div class="main-title">
+                    <h2>Площадки</h2>
+                </div>
+                <form action="#">
+                    <div class="content-full-height">
+                        <div class="ticket-table platforms-table">
+                            <div class="row header-table">
+                                <div class="column number">Номер</div>
+                                <div class="column ids">ID</div>
+                                <div class="column surname">Название</div>
+                                <div class="column code">Буквенный код</div>
+                            </div>
+                            <div class="row">
+                                <div class="column number">1</div>
+                                <div class="column ids">382919</div>
+                                <div class="column surname">Bungy 69</div>
+                                <div class="column code">ABC</div>
+                            </div>
+                            <div class="row">
+                                <div class="column number">2</div>
+                                <div class="column ids">122332</div>
+                                <div class="column surname">Bungy 207</div>
+                                <div class="column code">ABD</div>
+                            </div>
+                            <div class="row">
+                                <div class="column number">3</div>
+                                <div class="column ids">372820</div>
+                                <div class="column surname">Megatroll</div>
+                                <div class="column code">ABE</div>
+                            </div>
+                        </div>
+                        <div class="circle-buttons">
+                            <div class="plus-big">
+                                <div class="a" id="forpopup-1" href="">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 26 27" enable-background="new 0 0 26 27" xml:space="preserve">
+                                        <path fill="#FFC50F" d="M22.6,9.8c-1.9-0.1-3.8-0.1-5.8-0.1c0-2-0.1-4-0.1-5.9c-0.1-2-1.6-3.5-3.5-3.5h-0.3c-1.9,0-3.5,1.6-3.5,3.5
+	c-0.1,2-0.1,4-0.1,5.9c-1.9,0-3.8,0.1-5.8,0.1c-1.9,0.1-3.4,1.7-3.4,3.7v0.3c0,2,1.5,3.6,3.4,3.7c1.9,0.1,3.8,0.1,5.8,0.1
+	c0,2,0.1,4,0.1,5.9c0.1,2,1.6,3.5,3.5,3.5h0.3c1.9,0,3.5-1.6,3.5-3.5c0.1-2,0.1-4,0.1-5.9c1.9,0,3.8-0.1,5.8-0.1
+	c1.9-0.1,3.4-1.7,3.4-3.7v-0.3C26,11.5,24.5,9.9,22.6,9.8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div id="popup-1" class="plus-form">
+                            	<h4>Новый справочник</h4>
+                            	<div class="pf-row">
+                            		<select>
+                            			<option>Справочник оснований для скидок</option>
+                            			<option>Скидка оснований для справок</option>
+                            			<option>Основа скидок для справок</option>
+                            		</select>
+                            	</div>
+                            	<div class="pf-row"><input type="text" placeholder="Название"></div>
+                            	<div class="buttonbox"><input type="submit" value="Добавить"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.3.js"></script>
+    
+    <script src="js/tcal.js"></script>
+    <!--input календаря-->
+    
+    <script src="js/tabs.js"></script>
+    <!--табы-->
+    
+    <script src="js/slideBlock1.js"></script>
+    <script src="js/slideBlock2.js"></script>
+    <!--блок выезжающий по клику-->
+    
+    <script src="js/easyTooltip.js"></script>
+    <!--подсказка при наведении-->
+    
+    <script src="js/css3-animate-it.js"></script>
+    <!--анимация http://jackonthe.net/css3animateit/-->
+    
+    <script src="js/flexcroll.js"></script>
+    <!--кастомный скролл-->
+    
+    <script src="js/common.js"></script>
+    <!-- инициализация скриптов и мелкие скрипты -->
+</body>
+
+</html>
