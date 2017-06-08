@@ -65,87 +65,276 @@
                 </div>
                 <form action="#">
                     <div class="content-full-height">
-						<div class="new-attraction-header">
-							<ul>
-								<li>Номер 7</li>
-								<li>ID 456731</li>
-								<li>Дата добавления 13.04.2017</li>
-							</ul>
+                        <div class="new-attraction-header">
+                            <ul>
+                                <li>Номер 7</li>
+                                <li>ID 456731</li>
+                                <li>Дата добавления 13.04.2017</li>
+                                <li>Дата обновления 14.04.2017</li>
+                            </ul>
+                        </div>
+                        <div class="three-col clearfix">
+                            <div class="column">
+                                <div class="row">
+                                    <input type="text" placeholder="Статус">
+                                </div>
+                                <div class="row">
+                                    <select>
+                                        <option disabled selected>Минимальный возраст</option>
+                                        <option>9 лет</option>
+                                        <option>19 лет</option>
+                                        <option>29 лет</option>
+                                        <option>39 лет</option>
+                                        <option>49 лет</option>
+                                        <option>59 лет</option>
+                                    </select>
+                                </div>
+                                <div class="row">
+                                    <select>
+                                        <option disabled selected>Максимальный вес</option>
+                                        <option>91 кг</option>
+                                        <option>119 кг</option>
+                                        <option>129 кг</option>
+                                        <option>139 кг</option>
+                                        <option>149 кг</option>
+                                        <option>159 кг</option>
+                                    </select>
+                                </div>
+                                <div class="row">
+                                    <input type="text" placeholder="Цена билета">
+                                </div>
+                                <div class="row">
+                                    <input type="text" placeholder="Рабочий стол">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    <input type="text" placeholder="Шаг времени">
+                                </div>
+                                <div class="row two-inputs">
+                                    <input class="white-input" type="text" placeholder="Начало работы">
+                                    <input class="white-input" type="text" placeholder="Завершение работы">
+                                </div>
+                                <div class="row">
+                                    <input type="checkbox" name="checkbox" id="checkbox-1" disabled>
+                                    <label class="forcheckbox" for="checkbox-1">Разбивка на временные слоты</label>
+                                </div>
+                                <div class="row">
+                                    <input type="checkbox" name="checkbox" id="checkbox-2" disabled>
+                                    <label class="forcheckbox" for="checkbox-2">Предложить тандем</label>
+                                </div>
+                                <div class="row">
+                                    <input type="checkbox" name="checkbox" id="checkbox-3">
+                                    <label class="forcheckbox" for="checkbox-3">Сертификат</label>
+                                </div>
+                            </div>
+                            <div class="column last">
+                                <div class="row">
+                                    <textarea placeholder="Текст письма"></textarea>
+                                </div>
+                                <div class="row">
+                                    <input type="checkbox" name="checkbox" id="checkbox-4">
+                                    <label class="forcheckbox disabled" for="checkbox-4">Рассылка писем</label>
+                                </div>
+                                <div class="row">
+                                    <textarea placeholder="Примечание"></textarea>
+                                </div>
+                            </div>
+                        </div>
+						<div class="main-title second-title">
+							<h2>Просмотр и редактирование сетки</h2>
 						</div>
-						<div class="three-col clearfix">
-							<div class="column">
-								<div class="row"><input type="text" placeholder="Статус"></div>
-								<div class="row">
-									<select>
-										<option disabled selected>Минимальный возраст</option>
-										<option>9 лет</option>
-										<option>19 лет</option>
-										<option>29 лет</option>
-										<option>39 лет</option>
-										<option>49 лет</option>
-										<option>59 лет</option>
-									</select>
-								</div>
-								<div class="row">
-									<select>
-										<option disabled selected>Максимальный вес</option>
-										<option>91 кг</option>
-										<option>119 кг</option>
-										<option>129 кг</option>
-										<option>139 кг</option>
-										<option>149 кг</option>
-										<option>159 кг</option>
-									</select>
-								</div>
-								<div class="row"><input type="text" placeholder="Цена билета"></div>
-								<div class="row"><input type="text" placeholder="Рабочий стол"></div>
-							</div>
-							<div class="column">
-								<div class="row"><input type="text" placeholder="Шаг времени"></div>
-								<div class="row two-inputs">
-									<input class="white-input" type="text" placeholder="Начало работы">
-									<input class="white-input" type="text" placeholder="Завершение работы">
-								</div>
-								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-1" disabled><label class="forcheckbox" for="checkbox-1">Разбивка на временные слоты</label></div>
-								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-2" disabled><label class="forcheckbox" for="checkbox-2">Предложить тандем</label></div>
-								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-3"><label class="forcheckbox" for="checkbox-3">Сертификат</label></div>
-							</div>
-							<div class="column last">
-								<div class="row"><textarea placeholder="Текст письма"></textarea></div>
-								<div class="row"><input type="checkbox" name="checkbox" id="checkbox-4"><label class="forcheckbox disabled" for="checkbox-4">Рассылка писем</label></div>
-								<div class="row"><textarea placeholder="Примечание"></textarea></div>
-							</div>
-						</div>
-                    <div class="bottom-buttons">
-                        <input type="submit" value="Готово">
-                        <input class="yellow" type="submit" value="Отмена">
+                        <div class="attrs-table">
+                            <div class="attrs-table-row">
+                                <div class="attrs-col">
+                                    <header>
+                                        <div class="title-row">
+                                            <div class="name">Новый</div>
+                                            <div class="trucks"><img src="img/trucks.svg" alt=""></div>
+                                        </div>
+                                        <div class="attrs-header-content clearfix">
+                                            <div class="tolerances">
+                                                <div class="tolerances-row"><b>48-123 кг</b><span>мин 13 лет</span></div>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="attrs-content">
+                                        <div class="title">OPS:</div>
+                                        <table>
+                                            <tr>
+                                                <th class="col-1">Время</th>
+                                                <th>&nbsp;</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1">10:25</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1 yellow-bg">10:30</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1">10:35</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1 yellow-bg">10:40</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1">10:45</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1 yellow-bg">10:50</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1">10:55</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1 yellow-bg">11:00</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-1">11:05</td>
+                                                <td>
+                                                    &nbsp;
+                                                    <div class="popup-menu">
+                                                        <ul>
+                                                            <li><a href="#">Перерыв</a></li>
+                                                            <li><a href="#">Добавить столбец</a></li>
+                                                            <li><a href="#">Переименовать</a></li>
+                                                            <li><a href="#">Переместить</a></li>
+                                                            <li><a href="#">Удалить</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-buttons">
+                            <input type="submit" value="Готово">
+                            <input class="yellow" type="submit" value="Отмена">
+                        </div>
                     </div>
-					</div>
                 </form>
             </div>
         </div>
     </div>
     <script src="js/jquery-2.2.3.js"></script>
-    
+
     <script src="js/tcal.js"></script>
     <!--input календаря-->
-    
+
     <script src="js/tabs.js"></script>
     <!--табы-->
-    
+
     <script src="js/slideBlock1.js"></script>
     <script src="js/slideBlock2.js"></script>
     <!--блок выезжающий по клику-->
-    
+
     <script src="js/easyTooltip.js"></script>
     <!--подсказка при наведении-->
-    
+
     <script src="js/css3-animate-it.js"></script>
     <!--анимация http://jackonthe.net/css3animateit/-->
-    
+
     <script src="js/flexcroll.js"></script>
     <!--кастомный скролл-->
-    
+
     <script src="js/common.js"></script>
     <!-- инициализация скриптов и мелкие скрипты -->
 </body>

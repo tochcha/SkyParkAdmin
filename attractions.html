@@ -61,7 +61,10 @@
         <div class="container animated fadeIn delay-750">
             <div class="content content-100">
                 <div class="main-title">
-                    <h2>Аттракционы</h2>
+                    <h2 class="float-left">Аттракционы</h2>
+                        <div class="inp-search">
+                            <input type="text" placeholder="Быстрый поиск">
+                        </div>
                 </div>
                 <form action="#">
                     <div class="content-full-height">
@@ -69,11 +72,12 @@
                             <div class="row header-table">
                                 <div class="column num">Номер аттракциона</div>
                                 <div class="column id">ID аттракциона</div>
-                                <div class="column name">Название аттракциона</div>
-                                <div class="column status">Статус</div>
-                                <div class="column price">Цена билета</div>
+                                <div class="column name"><span class="sort">Название аттракциона</span></div>
+								<div class="column status"><span class="sort">Статус</span></div>
+								<div class="column price"><span class="sort sort-up">Цена билета</span></div>
                                 <div class="column date">Дата добавления</div>
                                 <div class="column rem">Примечание</div>
+                                <div class="column delete">&nbsp;</div>
                             </div>
                             <div class="row">
                                 <div class="column num">1</div>
@@ -83,6 +87,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                             <div class="row">
                                 <div class="column num">2</div>
@@ -92,6 +97,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                             <div class="row">
                                 <div class="column num">3</div>
@@ -101,6 +107,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                             <div class="row">
                                 <div class="column num">4</div>
@@ -110,6 +117,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                             <div class="row">
                                 <div class="column num">5</div>
@@ -119,6 +127,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                             <div class="row">
                                 <div class="column num">6</div>
@@ -128,6 +137,7 @@
                                 <div class="column price">1 000 Р</div>
                                 <div class="column date">12.04.2017</div>
                                 <div class="column rem">Аттракцион работает с 9-19 </div>
+                                <div class="column delete"><img src="img/delete.svg" alt=""></div>
                             </div>
                         </div>
                         <div class="circle-buttons">
@@ -153,6 +163,17 @@
                             	<div class="pf-row"><input type="text" placeholder="Название"></div>
                             	<div class="buttonbox"><input type="submit" value="Добавить"></div>
                             </div>
+                        </div>
+                        <div class="pagination">
+                        	<ul>
+                        		<li><a href="#">След.</a></li>
+                        		<li class="active"><a href="#">1</a></li>
+                        		<li><a href="#">2</a></li>
+                        		<li><a href="#">3</a></li>
+                        		<li><a href="#">4</a></li>
+                        		<li><a href="#">5</a></li>
+                        		<li><a href="#">Пред.</a></li>
+                        	</ul>
                         </div>
                     </div>
                 </form>

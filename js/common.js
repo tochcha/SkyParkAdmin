@@ -81,6 +81,22 @@ jQuery(document).ready(function() {
 
     // подсказка при наведении
     $(".withtitle").easyTooltip();
+	
+	// появление попап меню
+    $(".attrs-content tr").click(function() {
+        $(this).find(".popup-menu").toggleClass("visiblepopup");
+        //$(this).toggleClass("active");
+    });
+
+    jQuery(function($) {
+        $(document).mouseup(function(e) { // событие клика по веб-документу
+            var div = $(".popup-menu"); // тут указываем ID элемента
+            if (!div.is(e.target) // если клик был не по нашему блоку
+                && div.has(e.target).length === 0) { // и не по его дочерним элементам
+                div.removeClass("visiblepopup"); // скрываем его
+            }
+        });
+    });
 
 
     //подсветка активного инпут и текстареа
