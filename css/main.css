@@ -3341,7 +3341,26 @@ div.input-file input {
 	color: #031834;
 }
 
-
+.wrapper-404 {
+	width: 440px;
+	margin: 0 auto;
+	padding: 44px 0 10px;
+	text-align: center;
+}
+.wrapper-404 .code {
+	font: 700 178px Bebas Neue;
+	padding: 0 0 32px;
+}
+.wrapper-404 .code-info-wrap {
+	padding: 16px 0 44px;
+}
+.wrapper-404 p {
+	font-size: 22px;
+	margin: 0 0 12px;
+}
+.wrapper-404 .bottom-buttons {
+	text-align: center;
+}
 /**/
 
 
