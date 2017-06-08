@@ -3279,7 +3279,7 @@ div.input-file input {
 }
 
 .name-desc-fields {
-    padding: 0 44px 32px;
+    padding: 0 44px 10px;
 }
 
 .name-desc-fields:after {
@@ -3298,8 +3298,8 @@ div.input-file input {
 }
 
 .name-desc-fields .inputbox.long-ib {
-	width: 791px;
-	margin-right: 0;
+    width: 791px;
+    margin-right: 0;
 }
 
 .name-desc-fields input {
@@ -3321,12 +3321,12 @@ div.input-file input {
     padding: 0 18px;
     position: relative;
     top: -31px;
-	margin-bottom: -31px;
+    margin-bottom: -31px;
     font: 16px/31px SFUIDisplay;
     color: #4e4e4e;
     transition: .3s;
-	display: block;
-	cursor: text;
+    display: block;
+    cursor: text;
 }
 
 .name-desc-fields input:focus ~ label,
@@ -3337,30 +3337,88 @@ div.input-file input {
     -o-transform: translateX(0px) translateY(-28px);
     -ms-transform: translateX(0px) translateY(-28px);
     transform: translateX(0px) translateY(-28px);
-	font-weight: 500;
-	color: #031834;
+    font-weight: 500;
+    color: #031834;
 }
 
 .wrapper-404 {
-	width: 440px;
-	margin: 0 auto;
-	padding: 44px 0 10px;
-	text-align: center;
+    width: 440px;
+    margin: 0 auto;
+    padding: 44px 0 10px;
+    text-align: center;
 }
+
 .wrapper-404 .code {
-	font: 700 178px Bebas Neue;
-	padding: 0 0 32px;
+    font: 700 178px Bebas Neue;
+    padding: 0 0 32px;
 }
+
 .wrapper-404 .code-info-wrap {
-	padding: 16px 0 44px;
+    padding: 16px 0 44px;
 }
+
 .wrapper-404 p {
-	font-size: 22px;
-	margin: 0 0 12px;
+    font-size: 22px;
+    margin: 0 0 12px;
 }
+
 .wrapper-404 .bottom-buttons {
-	text-align: center;
+    text-align: center;
 }
+
+.three-col .column.many-checks .row.row-oneof {
+    padding: 14px 0 17px;
+}
+
+.oneof-label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 165px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 6px;
+}
+
+.oneof-switcher {
+    display: inline-block;
+    vertical-align: middle;
+    width: 54px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0 3px 6px 1px #c3c3c3;
+    box-shadow: inset 0 3px 6px 1px #c3c3c3;
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.oneof-switcher .oneof-slider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .2s;
+    width: 24px;
+    height: 24px;
+    background-color: #172a58;
+    border-radius: 50%;
+}
+
+.oneof-switcher.checked {
+    background: #ffc50f;
+    -webkit-box-shadow: inset 0 3px 6px 1px #c19304;
+    box-shadow: inset 0 3px 6px 1px #c19304;
+}
+
+.oneof-switcher.checked .oneof-slider {
+    -moz-transform: translateX(30px);
+    -webkit-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+}
+
+
 /**/
 
 

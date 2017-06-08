@@ -18,6 +18,11 @@ jQuery(document).ready(function() {
     $("input.tcal").click(function() {
         $(this).addClass("checked");
     });
+	
+    // переключатель "один из"
+    $(".oneof-switcher").click(function() {
+        $(this).toggleClass("checked");
+    });
 
     // попап 1
     $("#forpopup-1").click(function() {
