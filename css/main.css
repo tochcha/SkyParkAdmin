@@ -3602,15 +3602,15 @@ div.input-file input {
 .params .title a {
     font: bold 19px/22px 'Bebas Neue';
     display: inline-block;
-    background: url(../img/gear.svg) no-repeat right -4px;
-    background-size: 60px 60px;
-    padding-right: 46px;
+    background: url(../img/gear.svg) no-repeat right -3px;
+    background-size: 28px auto;
+    padding-right: 32px;
     transition: 0s;
     border-bottom: none;
 }
 
 .params .title a:hover {
-    background-position: right -34px;
+    background-position: right -31px;
     color: #efc332;
     text-decoration: none;
     border-bottom: none;
