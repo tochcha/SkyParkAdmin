@@ -2465,12 +2465,27 @@ footer {
     background-size: 15px 10px;
 }
 
+.constructor-box {
+	position: relative;
+	padding: 84px 0 94px;
+}
+
+.constructor-box .square {
+	position: absolute;
+	top: 200px;
+	left: 124px;
+	width: 82px;
+	height: 82px;
+	background-color: #37383b;
+}
+
 .constructor {
-    background: url(../img/constructor.png);
+    background: url(../img/constructor-tpl.jpg);
+	background-size: 100% 100%;
     width: 508px;
     height: 368px;
-    margin: 84px auto 94px;
-    padding: 9px 14px 14px 8px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 13px #e4e4e4;
 }
 
 div.input-file {
@@ -3416,6 +3431,204 @@ div.input-file input {
     -o-transform: translateX(30px);
     -ms-transform: translateX(30px);
     transform: translateX(30px);
+}
+
+.panel {
+    float: left;
+    padding: 0 34px;
+}
+
+.panel > div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-left: 1px solid #8f8f8f;
+    cursor: pointer;
+}
+
+.panel > div:first-child {
+    border: none;
+}
+
+.panel .item-1 {
+    background: #d1d1d1 url(../img/arrow-default.svg) no-repeat -17px -17px;
+    background-size: 67px auto;
+}
+
+.panel .item-2 {
+    background: #d1d1d1 url(../img/ico-t.svg) no-repeat -19px -17px;
+    background-size: 67px auto;
+}
+
+.panel .item-3 {
+    background: #d1d1d1 url(../img/ico-return.svg) no-repeat -18px -16px;
+    background-size: 67px auto;
+}
+
+.panel .item-4 {
+    background: #d1d1d1 url(../img/ico-dotts.svg) no-repeat -18px -17px;
+    background-size: 67px auto;
+}
+
+.panel .item-5 {
+    background: #d1d1d1 url(../img/ico-square.svg) no-repeat -18px -84px;
+    background-size: 67px auto;
+}
+
+.panel .item-1.active,
+.panel .item-1:hover {
+    background-color: #141b4a;
+    background-position: -17px -84px;
+}
+
+.panel .item-2.active,
+.panel .item-2:hover {
+    background-color: #141b4a;
+    background-position: -19px -84px;
+}
+
+.panel .item-3.active,
+.panel .item-3:hover {
+    background-color: #141b4a;
+    background-position: -18px -83px;
+}
+
+.panel .item-4.active,
+.panel .item-4:hover {
+    background-color: #141b4a;
+    background-position: -18px -84px;
+}
+
+.panel .item-5.active,
+.panel .item-5:hover {
+    background-color: #141b4a;
+    background-position: -18px -17px;
+}
+
+.font-select {
+    float: left;
+    padding-right: 32px;
+    margin-top: 2px;
+}
+
+.font-select select {
+    width: 163px;
+    height: 31px;
+    border: none;
+    background: none;
+    background: url(../img/arrow-down-gray.svg) no-repeat right center;
+    background-size: 15px 9px;
+    padding: 0 22px 0 2px;
+    line-height: 1em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -ms-appearance: none;
+    appearance: none !important;
+    color: #8f8f8f;
+    font: 500 16px/26px SFUIDisplay;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.font-select option {
+    text-transform: none;
+}
+
+.font-size {
+    float: left;
+    background: url(../img/plus-minus-bg.svg) no-repeat;
+    width: 139px;
+    height: 34px;
+    margin: -1px 32px 0 0;
+    position: relative;
+}
+
+.font-size .plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    width: 34px;
+    height: 34px;
+    text-indent: -9999px;
+}
+
+.font-size .minus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    width: 34px;
+    height: 34px;
+    text-indent: -9999px;
+}
+
+.font-size input {
+    width: 139px;
+    height: 34px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font: 500 16px SFUIDisplay;
+    color: #8f8f8f;
+}
+
+.import {
+    float: left;
+}
+
+.import input {
+    height: 34px;
+    line-height: 28px;
+    margin-top: -1px;
+}
+
+.import input:hover {
+    transform: scale(1);
+}
+
+.params {
+    float: right;
+    width: 186px;
+    margin: -14px 0;
+}
+
+.params .title {
+    margin-bottom: 2px;
+}
+
+.params .title a {
+    font: bold 19px/22px 'Bebas Neue';
+    display: inline-block;
+    background: url(../img/gear.svg) no-repeat right -4px;
+    background-size: 60px 60px;
+    padding-right: 46px;
+    transition: 0s;
+    border-bottom: none;
+}
+
+.params .title a:hover {
+    background-position: right -34px;
+    color: #efc332;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.params p {
+    color: #8f8f8f;
+    margin: 0;
+    font: 500 11px/16px SFUIDisplay;
+}
+
+.litepopup {
+    background-color: #f4f4f4;
+    width: 452px;
+    left: 50%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px #6c6c6c;
 }
 
 
