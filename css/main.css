@@ -3518,7 +3518,7 @@ div.input-file input {
     background: none;
     background: url(../img/arrow-down-gray.svg) no-repeat right center;
     background-size: 15px 9px;
-    padding: 0 22px 0 2px;
+    padding: 0 0 0 2px;
     line-height: 1em;
     -moz-appearance: none;
     -webkit-appearance: none;
